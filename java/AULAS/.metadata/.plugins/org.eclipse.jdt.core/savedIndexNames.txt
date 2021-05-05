@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/Users/robsondejesusvasconcelos/Documents/ExerciciosDoPORTUGOL/turma21/java/AULAS/.metadata/.plugins/org.eclipse.jdt.core
+2353178382.index
+2578713816.index
