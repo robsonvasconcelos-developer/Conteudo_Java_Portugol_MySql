@@ -1,4 +1,4 @@
-package POO_lista18_PolimorfismoE_heranca;
+package AnimaisPOO;
 
 public class Preguica extends Animal{
 
