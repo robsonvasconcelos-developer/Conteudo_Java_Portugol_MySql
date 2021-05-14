@@ -1,6 +1,6 @@
 package AnimaisPOO;
 
-public class Cachorro extends Mamifero implements Pet, Civilizado {
+public class Ave extends Mamifero implements Pet, Civilizado {
 
 
  	@Override

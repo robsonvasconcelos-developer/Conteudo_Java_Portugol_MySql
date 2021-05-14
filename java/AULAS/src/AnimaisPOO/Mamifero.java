@@ -1,6 +1,5 @@
 package AnimaisPOO;
 
-package classes;
 
 public abstract class Mamifero extends Animal {
 

@@ -1,6 +1,6 @@
 package AnimaisPOO;
 
-package classes;
+
 
 public class Calopsita extends Ave {
 
