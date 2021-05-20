@@ -3,7 +3,11 @@ package AnimaisPOO;
 public class Papagaio extends Ave implements Pet{
 
 
- 	@Override
+ 	public Papagaio(String nome, int idade) {
+		super(nome, idade);}
+		
+
+	@Override
  	public void voar() {
  		System.out.println("Voando....");
  	}

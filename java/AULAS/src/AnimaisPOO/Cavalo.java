@@ -6,7 +6,12 @@ public class Cavalo extends Mamifero implements Civilizado {
 	
 	
 	
- 	@Override
+ 	public Cavalo(String nome, int idade) {
+		super(nome, idade);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
  	public void mamar() {
  		System.out.println("mamadeira gigante....");
  	}

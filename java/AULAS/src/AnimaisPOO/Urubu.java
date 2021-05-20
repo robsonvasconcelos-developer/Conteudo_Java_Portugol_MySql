@@ -3,7 +3,12 @@ package AnimaisPOO;
 public class Urubu extends Ave implements Civilizado {
 
 
- 	@Override
+ 	public Urubu(String nome, int idade) {
+		super(nome, idade);
+		
+	}
+
+	@Override
  	public void voar() {
  		System.out.println("cortando as pernas, não deixo voar...");
 

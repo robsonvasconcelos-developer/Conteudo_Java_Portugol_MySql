@@ -4,7 +4,7 @@ package Lista04_Vetores_e_Matrizes;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class P4_Matriz {
+public class P4_Matriz_disco {
 
 	public static void main(String[] args) {
 		

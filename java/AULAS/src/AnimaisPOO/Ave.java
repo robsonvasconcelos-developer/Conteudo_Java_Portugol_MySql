@@ -3,7 +3,12 @@ package AnimaisPOO;
 public class Ave extends Mamifero implements Pet, Civilizado {
 
 
- 	@Override
+ 	public Ave(String nome, int idade) {
+		super(nome, idade);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
  	public void mamar() {
  		System.out.println("Mamando....");
  	}
@@ -25,6 +30,7 @@ public class Ave extends Mamifero implements Pet, Civilizado {
  		System.out.println("Pega o osso, a bolinha, a madeira...");
 
  	}
+
 
  	@Override
  	public void levarPassear() {

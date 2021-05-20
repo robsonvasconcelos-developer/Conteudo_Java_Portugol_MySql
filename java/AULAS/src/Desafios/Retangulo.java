@@ -15,6 +15,17 @@ public class Retangulo {
 	public double base;
 	public double area;
 	
+	
+
+	public Retangulo(double altura, double base) {
+		super();
+		this.altura = altura;
+		this.base = base;
+		this.area = area;
+	}
+
+
+
 	//metodo
 	public void area() {
 		System.out.println(base*altura);

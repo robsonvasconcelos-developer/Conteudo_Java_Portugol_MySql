@@ -2,7 +2,8 @@ package AnimaisPOO;
 
 public abstract class  Animal {
 
- 	//atributos
+ 	//atri@Override
+	
  	private String nome;
  	private int idade;
 
@@ -34,12 +35,21 @@ public abstract class  Animal {
  	//metodos
 
  	public void som() {
- 		System.out.println("Fazendo som....");
-
+ 		System.out.println("Fazendo som.");
  	}
+
+	public void voar() {
+		// TODO Auto-generated method stub
+		
+	
+
+ 	
 
 
 
 
 
  }
+}
+
+

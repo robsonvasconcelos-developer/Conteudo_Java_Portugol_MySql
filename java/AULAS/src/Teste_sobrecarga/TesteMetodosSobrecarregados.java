@@ -8,12 +8,17 @@ public class TesteMetodosSobrecarregados {
 	{
 		
 		
-		MetodoSobrecarregado metodoTeste = new MetodoSobrecarregado();
+		TesteMetodosSobrecarregados metodoTeste = new TesteMetodosSobrecarregados();
 		metodoTeste.testaMetodosSobrecarregados();
 		
 		
 
 
+	}
+
+	private void testaMetodosSobrecarregados() {
+	
+		
 	}
 
 }

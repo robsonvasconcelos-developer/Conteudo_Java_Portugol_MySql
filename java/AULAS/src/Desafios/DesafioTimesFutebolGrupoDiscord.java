@@ -2,7 +2,7 @@ package Desafios;
 
 import java.util.Scanner;
 
-public class DesafioTimesFutebol {
+public class DesafioTimesFutebolGrupoDiscord {
 
 	public static void main(String[] args) {
 		

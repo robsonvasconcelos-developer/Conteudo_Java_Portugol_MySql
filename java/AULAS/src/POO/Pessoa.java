@@ -9,7 +9,8 @@ public class Pessoa {
 	private String nomesDoMeio;
 	
 	/* O meu CONSTRUTOR(pedreiro) "Pessoa" ele ta RECEBENDO os "nomes com PARAMETROS" 
-	e esta ATRIBUINDO, aos ATRIBUTOS que Criei*/
+	e esta ATRIBUINDO, aos ATRIBUTOS que Criei e colocar os ATRIBUTOS denntro da
+	chaves {}*/
 	
 	public Pessoa (String primeiro,String meio,String ultimo)//dentro de () PARAMETROS
 	{
@@ -24,7 +25,7 @@ public class Pessoa {
 	
 	//CRIANDO um metodo para Juntar aos 3 nomes:
 	//CRIE O METODO - ABAIXO
-	public String getNomeCompleto()
+	public String getNomeCompleto()//criado aqui o METODO de RETORNO do GET.
 	{
 		String nomeCompleto = primeiroNome+" "+nomesDoMeio+" "+ultimoNome;
 		return nomeCompleto;

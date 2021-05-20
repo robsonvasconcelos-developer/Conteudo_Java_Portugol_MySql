@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class P7_Programacao_Sequencial {
+	
 
 	public static void main(String[] args) {
 		// 7. Um sistema de equações lineares do tipo: 
@@ -12,7 +13,7 @@ public class P7_Programacao_Sequencial {
 
 		//Declarando Variaveis
 		
-		int a,b,c;
+		int a,b,c,d = 0,r = 0,s = 0;
 		
 		// Entrada de dados
 		
@@ -36,7 +37,7 @@ public class P7_Programacao_Sequencial {
 		
 		//saida
 		
-		System.out.println("Para os inteiros positivos" + a +","+ b +"e" + c +"o valor de d e"+ d+ "\n");
+		System.out.println("Para os inteiros positivos" + a +","+ b +"e" + c +"o valor de d e"+ d + "\n");
 		System.out.println("O valor de r e" + r + "e de s e"+ s + "\n");
 		System.out.println("O valor de d e" + d);
 		

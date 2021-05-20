@@ -2,7 +2,7 @@ package lista2;
 
 import java.util.Scanner;
 
-public class tarefa1P2 {
+public class tarefa1P1 {
 
 	public static void main(String[] args) {
 		//1) Faça um programa que receba três inteiros e diga qual deles é o maior.

@@ -1,5 +1,5 @@
 package POO;
-
+// ESSE e o programa FInal da CLASS chamada "Pessoa"
 public class Nome {
 	public static void main (String args[])
 	{
