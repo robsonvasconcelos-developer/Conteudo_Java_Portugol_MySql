@@ -43,12 +43,12 @@ insert into tb_personagem (mario ,elsa ,aquaman ,wonderwoman ,deadpool, skill_id
 insert into tb_personagem (mario ,elsa ,aquaman ,wonderwoman ,deadpool, skill_id) values ("Dean - Fire Ball"," Kazooe - Frozen Down" , "Billie - Wave Attack", "Nany - Strong hands Power ", "Arqueiro - Weapon Allow right Power ", 4 );
 insert into tb_personagem (mario ,elsa ,aquaman ,wonderwoman ,deadpool, skill_id) values ("Cascao - Fire Ball"," James - Frozen Down" , "Eillish - Wave Attack", "Wanny - Strong hands Power ", "Arqueiro - Weapon Allow right Power ", 5 );
 
-select * from tb_personagem
-inner join tb_classe on tb_classe.id = tb_personagem.skill_id
-where tb_personagem.mario like "%C%"
-and tb_personagem.deadpool like "%arqueiro%"
-and tb_personagem.mario < 2000
-and tb_personagem.deadpool between 1000 and 2000
+
+select * from tb_personagem where tb_personagem.mario > 2000;
+select * from tb_personagem where tb_personagem.deadpool between 1000 and 2000;
+select * from tb_personagem where tb_personagem.mario like "%C%";
+select * from tb_personagem inner join tb_classe on tb_classe.id = tb_personagem.skill_id;
+select * from tb_personagem where tb_personagem.deadpool like "%arqueiro%"; -- versao Correta!
 
 
 
