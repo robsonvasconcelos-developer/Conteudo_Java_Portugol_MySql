@@ -1,3 +1,5 @@
+-- Atividade 1
+
 create database db_generation_game_online;
 
 use db_generation_game_online;
@@ -48,7 +50,9 @@ select * from tb_personagem where tb_personagem.mario > 2000;
 select * from tb_personagem where tb_personagem.deadpool between 1000 and 2000;
 select * from tb_personagem where tb_personagem.mario like "%C%";
 select * from tb_personagem inner join tb_classe on tb_classe.id = tb_personagem.skill_id;
-select * from tb_personagem where tb_personagem.deadpool like "%arqueiro%"; -- versao Correta!
+select * from tb_personagem where tb_personagem.deadpool like "%arqueiro%"; 
+
+
 
 
 

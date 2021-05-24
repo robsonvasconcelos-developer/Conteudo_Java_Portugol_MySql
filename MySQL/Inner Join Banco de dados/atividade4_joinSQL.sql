@@ -1,9 +1,11 @@
+-- Atividade 4
+
 create database db_cidade_das_carnes;
 
 use db_cidade_das_carnes;
 
 -- criando as Variaveis de Atributos - TABELA 1 
-create table tb_categoria( -- Categoria das Pizzas
+create table tb_categoria( 
 id bigint auto_increment,
 tipoCarne varchar (60) not NULL,
 promocao boolean not NULL,
@@ -32,14 +34,16 @@ insert into tb_categoria (tipoCarne,promocao,ativo) values ("Carne de Porco",fal
 insert into tb_categoria (tipoCarne,promocao,ativo) values ("Hamburguer",false,true);
 insert into tb_categoria (tipoCarne,promocao,ativo) values ("Enchidos",false,true);
 
-insert into tb_produto (nome ,kg ,preco ,borda ,delivery , sacola, categoria_id) values ("Frango",1 , 17.00, false, true, 1 );
-insert into tb_produto (nome ,kg ,preco ,borda ,delivery , sacola, categoria_id) values ("Costelinha",2 , 30.00, false, true, 3 );
-insert into tb_produto (nome ,kg ,preco ,borda ,delivery , sacola, categoria_id) values ("Carne industrial",1 , 12.00, true, true, 4 );
-insert into tb_produto (nome ,kg ,preco ,borda ,delivery , sacola, categoria_id) values ("Carne Moida",1.5 , 19.00, false, true, 5 );
-insert into tb_produto (nome ,kg ,preco ,borda ,delivery , sacola, categoria_id) values ("Filé Mignon",1 , 53.00, false, true, 2 );
-insert into tb_produto (nome ,kg ,preco ,borda ,delivery , sacola, categoria_id) values ("Picanha",1 , 60.00, false, true, 2 );
-insert into tb_produto (nome ,kg ,preco ,borda ,delivery , sacola, categoria_id) values ("Largato",1 , 52.00, false, true, 2 );
-insert into tb_produto (nome ,kg ,preco ,borda ,delivery , sacola, categoria_id) values ("Acem",1 , 51.00, false, true, 2 );
+insert into tb_produto (nome ,kg ,preco ,delivery , sacola, categoria_id) values ("Frango",1 , 17.00, false, true, 1 );
+insert into tb_produto (nome ,kg ,preco ,delivery , sacola, categoria_id) values ("Costelinha",2 , 30.00, false, true, 3 );
+insert into tb_produto (nome ,kg ,preco ,delivery , sacola, categoria_id) values ("Carne industrial",1 , 12.00, true, true, 4 );
+insert into tb_produto (nome ,kg ,preco ,delivery , sacola, categoria_id) values ("Carne Moida",1.5 , 19.00, false, true, 5 );
+insert into tb_produto (nome ,kg ,preco ,delivery , sacola, categoria_id) values ("Filé Mignon",1 , 53.00, false, true, 2 );
+insert into tb_produto (nome ,kg ,preco ,delivery , sacola, categoria_id) values ("Picanha",1 , 60.00, false, true, 2 );
+insert into tb_produto (nome ,kg ,preco ,delivery , sacola, categoria_id) values ("Largato",1 , 52.00, false, true, 2 );
+insert into tb_produto (nome ,kg ,preco ,delivery , sacola, categoria_id) values ("Acem",1 , 51.00, false, true, 2 );
+
+-- select * from tb_produto;
 
 select * from tb_produto where tb_produto.preco > 50.00;
 select * from tb_produto where tb_produto.preco between 3.00 and 60.00;

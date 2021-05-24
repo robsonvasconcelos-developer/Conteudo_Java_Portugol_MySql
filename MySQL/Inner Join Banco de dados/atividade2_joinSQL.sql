@@ -1,3 +1,5 @@
+-- Atividade 2
+
 create database db_pizzaria_legal;
 
 use db_pizzaria_legal;
@@ -11,7 +13,7 @@ ifoodFreteZero boolean not NULL,
 primary key (id)
 );
 
--- Criar Tabela 2 - Personagens
+-- Criar Tabela 2
   create table tb_pizza( 
   id bigint auto_increment,  -- Definindo como auto Incremente 1, 2, 3 ...
   recheio1 varchar(60) not NULL,
@@ -23,7 +25,7 @@ primary key (id)
   
 
   PRIMARY KEY (id), -- Definir coluna id como chave primária
-  FOREIGN KEY (categoria_id) REFERENCES tb_categoria (id) -- Definir coluna id como chave estrangeira e referenciando a tb_marcas coluna id
+  FOREIGN KEY (categoria_id) REFERENCES tb_categoria (id) 
 );
 
 insert into tb_categoria (produto,valorFrete,ifoodFreteZero) values ("Brotinho",9.99,false);
